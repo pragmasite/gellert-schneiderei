@@ -1,0 +1,276 @@
+export type Language = "de" | "en";
+
+export const translations = {
+  de: {
+    nav: {
+      about: "Über uns",
+      services: "Dienstleistungen",
+      gallery: "Galerie",
+      hours: "Öffnungszeiten",
+      contact: "Kontakt",
+      call: "Anrufen",
+      profession: "SCHNEIDEREI",
+    },
+    hero: {
+      badge: "Professionelle Schneiderei in Basel",
+      title1: "Ihre Spezialisten für",
+      title2: "Änderungen & Anpassungen",
+      description: "Wir bieten professionelle Änderungen, Reparaturen und massgeschneiderte Kleidung für alle Ihre Bedürfnisse",
+      sendEmail: "Email senden",
+      location: "Basel, Schweiz",
+    },
+    about: {
+      label: "Über uns",
+      title1: "Willkommen bei",
+      title2: "Gellert Schneiderei",
+      p1: "Wir freuen uns, Sie in unseren Studios in Basel willkommen zu heissen. Wir sind Ihre Spezialisten für Änderungen und Anpassungen aller Art. Egal ob Sie massgeschneiderte Vorhänge, Reparaturen, Änderungen, Haute Couture, Damenbekleidung oder Abendgarderobe benötigen - wir sind für Sie da.",
+      p2: "Mit jahrelanger Erfahrung und handwerklicher Exzellenz stellen wir sicher, dass jedes Stück perfekt sitzt und Ihren Anforderungen entspricht.",
+      stat1: "Jahre Erfahrung",
+      stat2: "Zufriedene Kunden",
+      stat3: "Projekte abgeschlossen",
+      features: [
+        { title: "Änderungen aller Art", description: "Von einfachen Längungen bis zu komplexen Anpassungen" },
+        { title: "Massgeschneiderte Stücke", description: "Individuelle Anfertigung nach Ihren Wünschen" },
+        { title: "Reparaturarbeiten", description: "Hochwertige Reparaturen für lange Haltbarkeit" },
+        { title: "Schnelle Bearbeitung", description: "Effiziente Verarbeitung ohne Kompromisse bei der Qualität" },
+      ],
+    },
+    services: {
+      label: "Dienstleistungen",
+      title: "Unsere Leistungen",
+      description: "Umfassendes Angebot für alle Ihre Schneiderei-Bedürfnisse",
+      items: [
+        {
+          title: "Hosen",
+          items: [
+            { desc: "Kürzen oder Verlängern, einfach", price: "ab CHF 20.–" },
+            { desc: "Kürzen mit Hosenbund", price: "CHF 30.–" },
+            { desc: "Schnitt mit Umschlag", price: "CHF 30.–" },
+            { desc: "Schnitt mit Schlitz", price: "CHF 30.–" },
+            { desc: "Neuer Reissverschluss", price: "ab CHF 29.–" },
+            { desc: "Bund enger/weiter", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Jacke / Sakko",
+          items: [
+            { desc: "Ärmel kürzen oder verlängern", price: "CHF 55.–" },
+            { desc: "Ärmel kürzen Original", price: "CHF 95.–" },
+            { desc: "Seitlich enger oder weiter", price: "CHF 55.–" },
+            { desc: "Saum kürzen", price: "ab CHF 65.–" },
+          ],
+        },
+        {
+          title: "Hemd / Bluse",
+          items: [
+            { desc: "Ärmeln kürzen einfach", price: "CHF 30.–" },
+            { desc: "Ärmel kürzen mit Original Schlitz", price: "CHF 45.–" },
+            { desc: "Saum kürzen einfach", price: "CHF 25.–" },
+            { desc: "Seite enger oder weiter", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Rock",
+          items: [
+            { desc: "Einfach kürzen", price: "ab CHF 30.–" },
+            { desc: "Seite enger oder weiter mit Futter", price: "CHF 45.–" },
+            { desc: "Neuer Reissverschluss", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Kleid",
+          items: [
+            { desc: "Einfach kürzen", price: "ab CHF 35.–" },
+            { desc: "Seitlich enger oder weiter mit Futter", price: "CHF 45.–" },
+            { desc: "Neuer Reissverschluss", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Mantel",
+          items: [
+            { desc: "Ärmel kürzen oder verlängern", price: "ab CHF 55.–" },
+            { desc: "Ärmel kürzen Original", price: "CHF 95.–" },
+            { desc: "Seitlich enger oder weiter", price: "CHF 65.–" },
+            { desc: "Saum kürzen", price: "ab CHF 75.–" },
+          ],
+        },
+      ],
+    },
+    gallery: {
+      label: "Galerie",
+      title: "Unsere Arbeiten",
+      description: "Entdecken Sie Beispiele unserer professionellen Schneiderei-Arbeiten",
+    },
+    hours: {
+      label: "Öffnungszeiten",
+      title: "Unsere Öffnungszeiten",
+      header: "Öffnungszeiten",
+      today: "Heute",
+      closed: "Geschlossen",
+      days: ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"],
+    },
+    contact: {
+      label: "Kontakt",
+      title1: "Besuchen Sie uns",
+      title2: "in Basel",
+      description: "Kontaktieren Sie uns für Fragen oder Terminvereinbarungen",
+      phone: "Telefon",
+      email: "Email",
+      address: "Adresse",
+      cta: "Jetzt kontaktieren",
+      callNow: "Jetzt anrufen",
+    },
+    footer: {
+      tagline: "Schneiderei",
+      description: "Ihre Spezialisten für Änderungen und Anpassungen in Basel",
+      navigation: "Navigation",
+      about: "Über uns",
+      copyright: "Alle Rechte vorbehalten.",
+    },
+    disclaimer: {
+      title: "Website-Vorschau",
+      items: [
+        "Diese Website ist ein Vorschau-Entwurf",
+        "Sie ist nicht in Google indexiert",
+        "Sie kann Fehler oder Ungenauigkeiten enthalten",
+      ],
+      button: "Verstanden",
+    },
+  },
+  en: {
+    nav: {
+      about: "About",
+      services: "Services",
+      gallery: "Gallery",
+      hours: "Hours",
+      contact: "Contact",
+      call: "Call",
+      profession: "TAILORING",
+    },
+    hero: {
+      badge: "Professional Tailoring in Basel",
+      title1: "Your Specialists for",
+      title2: "Alterations & Adjustments",
+      description: "We offer professional alterations, repairs and custom-made clothing for all your needs",
+      sendEmail: "Send Email",
+      location: "Basel, Switzerland",
+    },
+    about: {
+      label: "About",
+      title1: "Welcome to",
+      title2: "Gellert Tailoring",
+      p1: "We look forward to welcoming you to our studios in Basel. We are your specialists for alterations and adjustments of all kinds. Whether you need custom curtains, repairs, alterations, haute couture, women's clothing or evening wear - we are here for you.",
+      p2: "With years of experience and exceptional craftsmanship, we ensure that every piece fits perfectly and meets your requirements.",
+      stat1: "Years of Experience",
+      stat2: "Happy Customers",
+      stat3: "Projects Completed",
+      features: [
+        { title: "Alterations of All Kinds", description: "From simple hemming to complex adjustments" },
+        { title: "Custom-Made Pieces", description: "Individual tailoring according to your wishes" },
+        { title: "Repair Work", description: "High-quality repairs for lasting durability" },
+        { title: "Quick Processing", description: "Efficient processing without compromising on quality" },
+      ],
+    },
+    services: {
+      label: "Services",
+      title: "Our Services",
+      description: "Comprehensive offerings for all your tailoring needs",
+      items: [
+        {
+          title: "Trousers",
+          items: [
+            { desc: "Shortening or lengthening, simple", price: "from CHF 20.–" },
+            { desc: "Shortening with hem band", price: "CHF 30.–" },
+            { desc: "Cut with envelope", price: "CHF 30.–" },
+            { desc: "Cut with slit", price: "CHF 30.–" },
+            { desc: "New zipper", price: "from CHF 29.–" },
+            { desc: "Waistband tighter/looser", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Jacket / Blazer",
+          items: [
+            { desc: "Shorten or lengthen sleeves", price: "CHF 55.–" },
+            { desc: "Shorten sleeves original", price: "CHF 95.–" },
+            { desc: "Side narrower or wider", price: "CHF 55.–" },
+            { desc: "Shorten hem", price: "from CHF 65.–" },
+          ],
+        },
+        {
+          title: "Shirt / Blouse",
+          items: [
+            { desc: "Sleeve shortening easy", price: "CHF 30.–" },
+            { desc: "Shorten sleeves with original slit", price: "CHF 45.–" },
+            { desc: "Hem shortening simple", price: "CHF 25.–" },
+            { desc: "Page narrower or wider", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Skirt",
+          items: [
+            { desc: "Simply shorten", price: "from CHF 30.–" },
+            { desc: "Page narrower or wider with lining", price: "CHF 45.–" },
+            { desc: "New zipper", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Dress",
+          items: [
+            { desc: "Easy to shorten", price: "from CHF 35.–" },
+            { desc: "Side tighter or wider with lining", price: "CHF 45.–" },
+            { desc: "New zipper", price: "CHF 30.–" },
+          ],
+        },
+        {
+          title: "Coat",
+          items: [
+            { desc: "Shorten or lengthen sleeves", price: "from CHF 55.–" },
+            { desc: "Sleeve shortening original", price: "CHF 95.–" },
+            { desc: "Side tighter or looser", price: "CHF 65.–" },
+            { desc: "Shorten hem", price: "from CHF 75.–" },
+          ],
+        },
+      ],
+    },
+    gallery: {
+      label: "Gallery",
+      title: "Our Work",
+      description: "Discover examples of our professional tailoring work",
+    },
+    hours: {
+      label: "Hours",
+      title: "Our Opening Hours",
+      header: "Opening Hours",
+      today: "Today",
+      closed: "Closed",
+      days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    },
+    contact: {
+      label: "Contact",
+      title1: "Visit Us",
+      title2: "in Basel",
+      description: "Contact us for inquiries or to schedule an appointment",
+      phone: "Phone",
+      email: "Email",
+      address: "Address",
+      cta: "Get in Touch",
+      callNow: "Call Now",
+    },
+    footer: {
+      tagline: "Tailoring",
+      description: "Your specialists for alterations and adjustments in Basel",
+      navigation: "Navigation",
+      about: "About",
+      copyright: "All rights reserved.",
+    },
+    disclaimer: {
+      title: "Website Preview",
+      items: [
+        "This website is a draft preview",
+        "It is not indexed on Google",
+        "It may contain errors or inaccuracies",
+      ],
+      button: "Understood",
+    },
+  },
+};
